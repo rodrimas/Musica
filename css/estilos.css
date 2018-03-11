@@ -1,0 +1,140 @@
+@media all and (min-width:700px) {
+  .logo-img{
+    width: 15rem;
+  }
+  .estilo_navegacion{
+    top: -2rem;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .estilo_redessociales{
+    float: right;
+    padding-top: 7rem;
+  }
+  body{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ef9a9a;
+  }
+  header{
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  button{
+    width: 20rem;
+    margin-left: 2.5rem;
+    margin-top: 0.7rem;
+  }
+  .estilo_articulo1{
+    text-align: justify;
+    text-indent: 2.5rem;
+  }
+  .estilo_textarea1{
+    margin-top: -4rem;
+    margin-left: 7rem;
+    width: 55rem;
+  }
+  .estilo_textarea2{
+    margin-top: -4rem;
+    margin-left: 7rem;
+    width: 55rem;
+  }
+  .estilo_bloquefila{
+    background-color: #d9edf7;
+    margin-top: -2rem;
+  }
+  .estilo_buscador{
+    margin-top: 2rem;
+    top: 2rem;
+  }
+  h2{
+    margin-top: 2rem !important;
+  }
+  .navbar-nav > li > a:hover{
+    background-color: black;
+  }
+  .estilo_pills{
+    margin-top: 0.4rem;
+  }
+  .navbar-collapse > .nav-pills > li > a{
+    padding: 2.5rem;
+    display:inline-block;
+  }
+  .estilo_pills > li {
+    width: 16%;
+  }
+}
+@media all and (max-width: 700px) {
+  .logo-img{
+    width: 10rem;
+    float: left;
+  }
+  .estilo_redessociales{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 15rem;
+    clear: none;
+  }
+  .estilo_pills{
+    text-align: center;
+    width: 100%;
+    display: inline-grid;
+  }
+  .navbar > .nav-pills > .nav-item > a{
+    padding: 0.5rem;
+    display:inline-block;
+  }
+  .navbar > .nav-pills > .nav-item > a > img{
+    /*width: 60%;*/
+    padding: 0;
+  }
+  nav{
+    margin-bottom: 0 !important;
+  }
+  header{
+    margin-left: 1rem;
+  }
+  .estilo_navegacion{
+    margin-left: 1rem;
+  }
+  .estilo_bloque{
+    height: 5rem;
+    background-color: #ef9a9a;
+    margin-left: 1rem;
+  }
+  .media-heading{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .media-body{
+    display: table-row-group;
+  }
+  .estilo_articulo1{
+    text-align: justify;
+    text-indent: 2.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .estilo_columnaderecha{
+    display: none;
+  }
+  .media-middle{
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .media-object{
+    width: 100%;
+  }
+  .estilo_textarea1{
+    margin-top: -4rem;
+    margin-left: 7rem;
+    width: 25rem;
+  }
+  .estilo_textarea2{
+    margin-top: -4rem;
+    margin-left: 7rem;
+    width: 25rem;
+  }
+}
